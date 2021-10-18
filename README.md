@@ -5,7 +5,7 @@
 * Removes "user joined" messages;  
 * If text message starts with `@admin`, admins are notified;  
 * A simple interface for admins to choose one of actions on reported message;  
-* English and Russian languages are built-in.
+* Russian language are built-in.
 
 #### Requirements
 * Python 3.9 and above;  
