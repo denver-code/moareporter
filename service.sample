@@ -1,0 +1,15 @@
+[Unit]
+Description=Moa - report for Telegram
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=path
+ExecStart=path/venv/bin/python -m bot
+KillMode=process
+Restart=always
+RestartSec=10
+EnvironmentFile=path/.env
+
+[Install]
+WantedBy=multi-user.target

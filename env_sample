@@ -1,0 +1,5 @@
+# rename this file to .env (with leading dot)
+BOT_TOKEN=12345:AaBbCcDdEeFfGgHhIiJjKk
+BOT_LANGUAGE=en
+GROUP_MAIN=-2323
+GROUP_REPORTS=-12342

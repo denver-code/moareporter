@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Telethon session cache
+*.session
+*.session-journal
+
+# Config
+config.ini
+.env
+reportbot.service
+
+# Test files
+test.py
+
+
+# Logs
+logs/
+
+# Virtual envirment
+venv/
+.venv/
+
+.vscode/
+.idea/
