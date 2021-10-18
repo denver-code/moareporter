@@ -17,12 +17,11 @@
 and **make bot an admin**. You also need to give it "Delete messages" permission.  
 2. Create a separate group where report messages will be sent and add all group admins there. 
 **Remember**: anyone who is in that group may perform actions like "Delete", "Ban" and so on, so be careful.  
-3. Use some bot like [@my_id_bot](https://t.me/my_id_bot) to get IDs of these two groups;  
 3. Clone this repo and `cd` into it;  
-4. Now choose installation method: **systemd** or **Docker**
+4. Now choose installation method: **systemd**
 
 ##### systemd
-1. Create a venv (virtual environment): `python3.9 -m venv venv` (or any other Python 3.7+ version);  
+1. Create a venv (virtual environment): `python3 -m venv venv` (or any other Python 3.7+ version);  
 2. `source venv/bin/activate && pip install -r requirements.txt`;
 3. Copy `env_dist` to `.env` (with dot). **Warning**: files starting with dot are usually hidden in Linux, 
 so don't worry if you stop seeing this file, it's still here!  
